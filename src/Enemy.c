@@ -6,7 +6,8 @@
 
 void updateEnemy( Enemy *e, float delta ) {
 
-    static float a = 0;
+    static float a = 0; // each enemy must have its own "a" (angle).
+                        // this was just a test!
 
     if ( e->hp != 0 ) {
         e->pos.x += e->vel.x * sinf( DEG2RAD * a ) * delta * 1.5f;
