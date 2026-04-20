@@ -29,7 +29,7 @@ static void resolveProjectileObstacleCollision( GameWorld *gw );
 /**
  * @brief Creates a dinamically allocated GameWorld struct instance.
  */
-GameWorld* createGameWorld( void ) {
+GameWorld *createGameWorld( void ) {
 
     GameWorld *gw = (GameWorld*) calloc( 1, sizeof( GameWorld ) );
 
